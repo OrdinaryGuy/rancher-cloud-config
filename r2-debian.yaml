@@ -1,0 +1,7 @@
+#cloud-config
+ssh_authorized_keys:
+  - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCo5CRTzAwkMJv0ghafA7FZ5pSHivBNI3IJ/8GlDksprYnPnKq/v8Po8CjBrv6Jq/CWXc0f5yAmJpr1aLBouQGYbiFxqTI6kO6Jw6J33eut13TDte0qL1Ky5+OtC4h4CCx569ZX8NeGMMZ4BDRhw2S83GINUO4E1ECB5FawDOKIrGfc6BUURd8uRGuvkJhbm6Kh7px+7vEOuM5b1xnsY99VvzJBXaoKeNDhPzhJ5BsI0Q30iY6C5ktC29VDruweb45Kuvkh99EXZ59qRcjO9qrUWHS5dntvBRjk4/UguPPu5fYH9GUfwLYc/2+XopIsa4jAIz/tybSfSGDzqVlxc0XF mb
+hostname: r2
+rancher:
+  console: debian
+  resize_device: /dev/sda
